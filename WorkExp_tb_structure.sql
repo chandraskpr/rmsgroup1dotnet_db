@@ -1,7 +1,5 @@
-create table workExperience_tb_structure(
-	userId int
-	/*forign key userId+resumeId refrences to
-	userInfotbstructure*/,
+create table WorkExperience(
+	resumeId int primary key, 
 	clientDescription varchar(100) not null,
 	country varchar(3) not null,
 	projectName varchar(50) not null,
