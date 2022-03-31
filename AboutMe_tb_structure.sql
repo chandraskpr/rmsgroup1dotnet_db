@@ -3,7 +3,7 @@
 		resumeId int primary key ,
 		mainDescription varchar(500) not null,
 		keyPoints varchar(100),foreign key(resumeId)
-		references UserId(resumeId) );
+		references UserResume(userResumeId) );
 
 		
 
